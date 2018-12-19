@@ -14,8 +14,8 @@ is different from:
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
-         and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         and Alex Hinojosa.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import rosegraphics as rg
 
@@ -372,6 +372,8 @@ def print_all_items_forwards(sequence):
     #          Tests have been written for you (above).
     # -------------------------------------------------------------------------
 
+    for k in range(len(sequence)):
+        print(sequence[k])
 
 ###############################################################################
 # Iterating through the ENTIRE sequence, BACKWARDs.
